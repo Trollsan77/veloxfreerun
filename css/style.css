@@ -139,16 +139,25 @@ body{
 .wrapper section.lokalen article li{
     line-height: 180%;
 }
-.wrapper section.splide{
+.wrapper section.main-splide{
     display: flex;
     justify-content: center;
     align-items: center;
-    grid-row: 26 / 31;
-    grid-column: 2 / 8;
-    box-shadow: 0 0 30px rgba(34, 13, 58, 0.205);
+    grid-row: 26 / 33;
+    grid-column: 3 / 7;
 }
-.wrapper section.splide .splide__slide img{
-   width: 100%;
+.wrapper section.mail-splide ul li img{
+    width:  100%;
+}
+.wrapper section.splide{
+    grid-row: 33 / 34;
+    grid-column: 3 / 7;
+}
+.wrapper section.splide article ul li.splide__slide {
+    opacity: 0.6;
+}
+.wrapper section.splide article ul li.splide__slide.is-active {
+    opacity: 1;
 }
 .wrapper footer{
     background-color:  #eee;
@@ -270,3 +279,4 @@ body{
     margin: 0px;
     line-height: 200%;
 }
+/*Contact*/
