@@ -283,7 +283,7 @@ body{
 
 .wrapper main{
     grid-column: 2 / 8;
-    grid-row: 4 / 8;
+    grid-row: 6 / 23;
 }
 .wrapper main section.contact{
     display: flex;
