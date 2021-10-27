@@ -280,3 +280,23 @@ body{
     line-height: 200%;
 }
 /*Contact*/
+
+.wrapper main{
+    grid-column: 2 / 8;
+    grid-row: 4 / 8;
+}
+.wrapper main section.contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.wrapper main section.contact article{
+    flex-direction: column;
+    width: 400px;
+}
+.wrapper main section.contact article ol{
+    list-style-type: none;
+    padding: 0;
+    line-height: 140%;
+    margin-top: 5px;
+}
