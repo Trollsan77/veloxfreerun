@@ -96,10 +96,11 @@ body{
     max-width:  250px;
     max-height: 320px;
 }
-.wrapper section.aktivity article h1{
+.wrapper section.aktivity article h2{
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 10px;
+    font-size: 18px;
 }
 .wrapper section.aktivity article p{
     width: 100%;
@@ -130,7 +131,7 @@ body{
     display: flex;
     justify-content: center;
   }
-.wrapper section.hallen article.hallen h1{
+.wrapper section.hallen article.hallen h2{
     font-size: 24px;
     margin-bottom: 10px;
 }
@@ -162,19 +163,19 @@ body{
     line-height: 180%;
 }
 .wrapper section.main-splide{
-    display: flex;
     justify-content: center;
     align-items: center;
     grid-row: 28 / 35;
     grid-column: 3 / 7;
+    box-shadow: 0 0 30px rgba(34, 13, 58, 0.205);
 }
 .wrapper section.main-splide ul li img{
     width:  100%;
-    max-width: 500px;
 }
 .wrapper section.splide{
     grid-row: 35 / 36;
     grid-column: 3 / 7;
+    box-shadow: 0 0 30px rgba(34, 13, 58, 0.205);
 }
 .wrapper section.splide article ul li.splide__slide {
     opacity: 0.5;
@@ -207,7 +208,7 @@ body{
     margin-left: 10px;
 }
 
-.wrapper footer section.footer article h1{
+.wrapper footer section.footer article h3{
     font-size: 16px;
     margin-bottom: 0px;
  }
@@ -281,7 +282,7 @@ body{
     width: 200px;
     margin-left: 10px;
 }
-.wrapper footer section.footer-about article h1{
+.wrapper footer section.footer-about article h3{
     font-size: 16px;
     margin-bottom: 0px;
  }
@@ -302,12 +303,14 @@ body{
     line-height: 180%;
     margin-top: 0px;
 }
-.wrapper footer section.footer-about article.youtube a{
+.wrapper footer section.footer-about article.youtube ul li{
     text-decoration: none;
     color: black;
-    display: flex;
-    margin: 0px;
-    line-height: 200%;
+}
+.wrapper footer section.footer-about article a{
+    text-decoration: none;
+    color: black;
+    line-height: 500%;
 }
 /*Contact*/
 
