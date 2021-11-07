@@ -266,10 +266,13 @@ body{
 .wrapper aside{
     display: flex;
     flex-direction: column;
-    max-width: 100px;
-    grid-column: 6 / 8;
-    grid-row: 19 / 30;
-} 
+    max-width: 150px;
+    grid-column: 7 / 9;
+    grid-row: 10 / 30;
+}
+.wrapper aside.sponsorer-img img{
+    margin: 10px;
+}
 .wrapper footer.footer-about{
     background-color:  #eee;
     max-width:  1000px;
