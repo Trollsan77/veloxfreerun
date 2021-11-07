@@ -242,28 +242,40 @@ body{
  /* Sidan om oss*/
  .wrapper main.about{
      grid-column: 2 / 8;
-     grid-row: 5 / 37;
+     grid-row: 5 / 30;
  }
- .wrapper main.about section.history h1{
-     grid-row: 5 / 10;
-     margin-top: 0px;
+.wrapper main.about section.history h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
-.wrapper main.about section.atlet article.atlet{
-    grid-column: 2 / 8;
-    grid-row: 10 / 16;
+.wrapper main.about section.atlet h2{
+    margin-top: 50px;
+}
+.wrapper main.about section.atlet ul{
+    line-height: 160%;
 }
 .wrapper main.about section.atlet a{
     color: black;
 }
-.wrapper main.about section.parkour{
-    grid-row: 17 / 37;
+.wrapper main.about section.sponsorer{
+    margin-top: 50px;
 }
+.wrapper main.about section.sponsorer ul{
+    line-height: 160%;
+}
+.wrapper aside{
+    display: flex;
+    flex-direction: column;
+    max-width: 100px;
+    grid-column: 6 / 8;
+    grid-row: 19 / 30;
+} 
 .wrapper footer.footer-about{
     background-color:  #eee;
     max-width:  1000px;
     box-sizing: border-box;
     grid-column: 1 / 9;
-    grid-row: 39 / 50;
+    grid-row: 31 / 41;
  }
  .wrapper footer.footer-about img{
     width: 100%;
@@ -274,8 +286,6 @@ body{
     align-items: flex-start;
     font-size: 14px;
     margin-left: 10px;
-    grid-row: 41 / 42;
-    grid-column: 3 / 6;
 }
 .wrapper footer section.footer-about article{
     flex-direction: column;
